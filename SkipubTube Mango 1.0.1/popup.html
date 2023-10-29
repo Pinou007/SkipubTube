@@ -1,0 +1,130 @@
+<!--                                                     
+ _____ _    _             _   _____     _             ___  ___                        
+/  ___| |  (_)           | | |_   _|   | |            |  \/  |                        
+\ `--.| | ___ _ __  _   _| |__ | |_   _| |__   ___    | .  . | __ _ _ __   __ _  ___  
+ `--. \ |/ / | '_ \| | | | '_ \| | | | | '_ \ / _ \   | |\/| |/ _` | '_ \ / _` |/ _ \ 
+/\__/ /   <| | |_) | |_| | |_) | | |_| | |_) |  __/   | |  | | (_| | | | | (_| | (_) |
+\____/|_|\_\_| .__/ \__,_|_.__/\_/\__,_|_.__/ \___|   \_|  |_/\__,_|_| |_|\__, |\___/ 
+             | |    By Pinou007                                            __/ |      
+             |_|    github.com/Pinou007/SkipubTube-extension              |___/       
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SkipubTube</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 380px;
+      padding: 10px;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #131313;
+      color: #888; 
+    }
+    
+    .popup-container {
+      background-color: #131313;   
+      width: 85%;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      opacity: 0; 
+      animation: fadeIn 0.5s ease-in-out 0.5s forwards; 
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #fff; 
+    }
+    
+    .created-by {
+      color: #fff; 
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .icon {
+      width: 28px; 
+      height: 28px; 
+      margin-right: 10px; 
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%; 
+    }
+    
+    a {
+      text-decoration: none;
+      color: inherit; 
+    }
+
+    .popup-button {
+      background-color: transparent;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 0;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-bottom: 10px;
+      width: 100%; 
+      text-align: left; 
+      display: flex;
+      align-items: center;
+      color: #fff; 
+      font-size: 15px; 
+    }
+    
+    .popup-button:hover {
+      background-color: #2a2a2a; 
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="popup-container">
+    <div>
+      <h1>SkipubTube Mango</h1>
+      <p style="color: #888;">Créée par Pinou007 | Version 1.0.1</p>
+    </div>
+    
+    <div class="button-container" style="width: 100%;">
+      <!-- 
+      <a href="pages/update.html">
+        <button class="popup-button" id="param-button">
+          <img src="/images/param-icon.png" alt="Paramètres" class="icon">Paramètres
+        </button> 
+      </a>
+    -->
+      <a href="pages/report.html">
+        <button class="popup-button" id="report-button">
+          <img src="/images/report-icon.png" alt="Signaler un bug" class="icon">Signaler un bug
+        </button>
+      </a>
+
+      <a href="pages/update.html">
+        <button class="popup-button" id="update-button">
+         <img src="/images/update-icon.png" alt="Vérifier les mises à jour" class="icon">Vérifier les mises à jour
+        </button>
+      </a>
+      <a href="pages/changelog.html">
+        <button class="popup-button" id="changelog-button">
+          <img src="/images/changelog-icon.png" alt="Journal des mises à jour" class="icon">Journal des mises à jour
+        </button>
+      </a>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

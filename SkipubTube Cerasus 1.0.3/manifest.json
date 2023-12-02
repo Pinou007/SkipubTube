@@ -5,7 +5,8 @@
     "description": "Une extension qui permet de sauter les publicités sur YouTube.",
     "permissions": ["activeTab"],
     "icons": {
-        "16": "images/icon16.png"
+        "16": "images/icon16.png",
+        "48": "images/icon48.png"
     },
     "action": {
         "default_popup": "popup.html",

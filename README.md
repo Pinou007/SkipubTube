@@ -3,6 +3,8 @@
 Bienvenue sur le projet GitHub de **SkipubTube**, une extension révolutionnaire conçue pour éliminer les publicités vidéo et les bannières publicitaires sur YouTube, tout en évitant intelligemment les restrictions imposées par les bloqueurs de publicité. Profitez d'une expérience de visionnage non ininterrompue sur YouTube avec SkipubTube. Seulement disponible sur ordinateur ou appariel qui peut ajoutée des extention du méme type
 
 
+## ⚠ NE FONCTIONE PLUS ACTUELLEMENT & PLUS MIE A JOUR OFFICIELLEMENT
+
 
 ## 📋 Configuration requise 
 
